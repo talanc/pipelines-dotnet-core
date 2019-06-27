@@ -21,3 +21,5 @@ steps:
     command: custom
     custom: tool
     arguments: 'install -g dotnetsay'
+- script: dotnetsay
+  displayName: 'calling dotnetsay'
